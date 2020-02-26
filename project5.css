@@ -1,0 +1,269 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.one {
+    background-color: rgb(2, 2, 43);
+    color: white;
+    padding-bottom: 80px;
+}
+.one a {
+    color: white;
+}
+.find {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: 1px solid white;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 25px;
+}
+.two {
+    padding: 60px 0;
+}
+.three {
+    padding: 80px 0;
+    background-color: rgb(2, 2, 43);
+    color: white;
+}
+.four {
+    padding: 80px 0;
+}
+.four span, .three span {
+    display: inline-block;
+}
+
+.five {
+    padding: 40px;
+    background-color: rgb(53, 46, 46);
+    color: white;
+}
+.five input {
+    border: none;
+    outline: none;
+    padding: 24px 40px;
+    width: 80%;
+    border-radius: 25px 0 0 25px;
+}
+.five button {
+    background-color: rgb(2, 2, 43);
+    color: white;
+    border: none;
+    outline: none;
+    overflow: hidden;
+    padding: 20px 40px 25px 40px;
+    margin-left: -5px;
+    border-radius:0 25px 25px 0;
+}
+.six {
+    padding: 80px 0;
+}
+.six img{
+    height: 500px;
+}
+.seven {
+    padding: 40px 0;
+    background-color: rgb(8, 108, 148);
+    color: white;
+}
+.seven .fa{
+    color: goldenrod;
+}
+.eight {
+    padding: 60px 0;
+}
+.eight1 {
+    max-width:30%; 
+    margin: 10px;
+}
+.nine {
+    padding: 40px 0 40px 100px;
+    background-color: rgb(2, 2, 43);
+    color: white;
+    position: relative;
+}
+.nine span{
+    display: inline-block;
+}
+.nine button {
+    background-color: black;
+    background-repeat:no-repeat;
+    border: 1px solid white;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 35px;
+    margin: 10px;
+}
+.ten {
+    padding: 80px 0;
+}
+.ten p, .ten h3 {
+    padding: 10px 20px;
+}
+.ten button {
+    background: transparent;
+    border: 1px solid black;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    width: 50%;
+    margin:0 0 30px 20px;
+}
+.ten .card {
+    max-width:33%; 
+    margin:10px;
+}
+.one1 {
+    padding: 40px 0;
+    background-color: rgb(2, 2, 43);
+    color: white;
+}
+.one2 {
+    padding: 80px 0;
+    clear: both;
+    margin-bottom: 30px;
+}
+.one2 button {
+    background: transparent;
+    border: 1px solid black;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    margin: 20px;
+}
+.one2 .card {
+    background-color: rgb(224, 223, 223);
+    padding: 30px;
+    width:31%; 
+    margin: 10px;
+}
+.one2 .card:hover {
+    background-color: rgb(14, 14, 211);
+    color: white;
+    box-shadow: 5px 5px 5px 5px lightgray;
+}
+.one3 {
+    clear: both;
+    color: white;
+    padding: 40px;
+    background-color: rgb(2, 2, 43);
+}
+.one4 {
+    padding: 40px 0;
+    clear: both;
+}
+.one4 .card {
+    margin: 20px;
+}
+.one4 .card-header {
+    background-color: rgb(6, 6, 126);
+    color: white;
+}
+.one5 {
+    clear: both;
+    background: black;
+    position: relative;
+    height: 220vh;
+}
+
+.one5 .fa {
+    vertical-align: middle;
+    width: 40px;
+    height: 50px;
+}
+.one5 span {
+    display: inline-block;
+}
+.one5 input[type=text], .one5 textarea {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+    margin:10px 0 10px -100px;
+    box-sizing: border-box;
+}
+.one51 {
+    background: white;
+    position: absolute;
+    top:20%;
+    left:10%;
+    z-index: 1;
+    width: 80%;
+    padding: 40px 0;
+}
+.one51 button {
+    background: rgb(2, 2, 77);
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    padding: 10px 30px;
+    border-radius: 10px;
+    margin: 50px 10%;
+    color: white;
+    width: 80%;
+}
+.one52{
+    display: flex; 
+    flex-wrap: wrap;
+}
+.one52 > div {
+    width: 25%;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+.tag button {
+    background: gray;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    border-radius: 20px;
+    padding:5px 10px;
+    margin: 4px;
+}
+@media(max-width:768px) {
+    .oneimg {
+        width:100%;
+    }
+    .eight1 {
+        max-width: 45%;
+    }
+    .ten .card {
+        max-width:45%; 
+        margin:5px;
+    }
+    .ten button {
+        width: 70%;
+    }
+    .one2 .card {
+        width: 95%;
+    }
+    .one51 {
+        left:10%;
+        padding: 10px 0;
+    }
+    .one5 input[type=text], .one5 textarea {
+        margin: 0;
+    }
+    .one5 {
+        height: 500vh;
+    }
+    .one52 > div {
+        width: 50%;
+    }
+    .one5img {
+        width: 90%;
+    }
+}

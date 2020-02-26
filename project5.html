@@ -1,0 +1,685 @@
+<!-- *************************************************************************************************
+    Desciption  : Developing a website as per given template using bootstrap.
+	Author      : Shashanka Shekhar Nayak
+	Date        : 05-10-2018
+	*************************************************************************************************** -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Project 5</title>
+    <link rel="icon" href="./image/logo.jpg">
+    <link rel="stylesheet" href="../../animate/animate.css">
+    <link rel="stylesheet" href="../../bootstrap/css/bootstrap.min.css" type="text/CSS">
+    <link rel="stylesheet" href="../../font-awesome-4.7.0/css/font-awesome.min.css" type="text/CSS">
+    <link rel="stylesheet" href="./project5.css" type="text/CSS">
+</head>
+<body>
+    <div class="one container-fluid">
+        <div class="container">
+            <span><img src="./image/logo.jpg" alt="logo" class="img-fluid" style="width:4%;"></span>
+            <span>APPERLE</span>
+            <span class="float-right">
+                <nav class="navbar navbar-expand-md">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                        <span><i class="fa fa-bars bg-light"></i></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#feature" class="nav-link">Features</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#screen" class="nav-link">Screenshots</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Dowload</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#news" class="nav-link">News</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#pricing" class="nav-link">Pricing</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#faq" class="nav-link">FAQs</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#contact" class="nav-link">Contact</a>
+                            </li>
+                        </ul>
+                    </div>  
+                </nav>
+            </span>
+        </div>
+        <div class="row w-100">
+            <div class="text-center col-md-6 col-12" style="padding:150px 0;">
+                <img class="oneimg" src="./image/title.png" alt=""> <br><br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, <br> qui cupiditate consequatur ab iusto quod?</p>
+                <a href="#"><button class="find">FIND MORE ABOUT US</button></a>
+            </div>
+            <div class="col-md-6 col-12 pt-5">
+                <div class="conatiner w-50 carousel slide mx-auto" id="mycarousel" data-ride="carousel" data-interval="2000" data-pause="hover">
+                    <ul class="carousel-indicators">
+                        <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#mycarousel" data-slide-to="1"></li>
+                        <li data-target="#mycarousel" data-slide-to="2"></li>
+                    </ul>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./image/h2.png" alt="" class="d-block w-100" style="height:600px;">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./image/h1.png" alt="" class="d-block w-100" style="height:600px;">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./image/h3.png" alt="" class="d-block w-100" style="height:600px;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="two container text-center">
+        <h1>ABOUT APPERLE</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis <br>
+           veritatis ex possimus suscipit earum sapiente iste libero ea <br>
+           aperiam, tempore corrupti aliquid nihil in tenetur, maxime sed.</p> <br>
+        <div class="container row">
+            <div class="col-md-4 col-12">
+                <i class="fa fa-4x fa-snowflake-o"></i>
+                <h2>Unique Layout</h2>
+                <p>Lorem ipsum dolor sit amet consectetur <br>
+                   adipisicing elit. Amet enim architecto <br>
+                   quaerat doloremque quisquam sint.</p>
+            </div>
+            <div class="col-md-4 col-12">
+                <i class="fa fa-4x fa-pencil"></i>
+                <h2>Well Documented</h2>
+                <p>Lorem ipsum dolor sit amet consectetur <br>
+                   adipisicing elit. Amet enim architecto <br>
+                    quaerat doloremque quisquam sint.</p>
+            </div>
+            <div class="col-md-4 col-12">
+                <i class="fa fa-4x fa-superpowers"></i>
+                <h2>Super Fast</h2>
+                <p>Lorem ipsum dolor sit amet consectetur <br>
+                   adipisicing elit. Amet enim architecto <br>
+                   quaerat doloremque quisquam sint.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="three container-fluid text-center" id="feature">
+        <h1>Features</h1>
+        <br><br><br>
+        <div class="row">
+            <div class="col-md-4 col-12 text-md-right text-center wow animated bounceInLeft">
+                <section>
+                    <span><h2>Super Fast</h2></span>
+                    <span><i class="fa fa-2x fa-rocket"></i></span>
+                    <p style="margin-right:7%;">Lorem, ipsum dolor sit amet<br>
+                       consectetur adipisicing elit<br>
+                       Magni, molestiae</p>
+                </section>
+                <section>
+                    <span><h2>Unlimited Features</h2></span>
+                    <span><i class="fa fa-2x fa-lightbulb-o"></i></span>
+                    <p style="margin-right:7%;">Lorem, ipsum dolor sit amet<br>
+                       consectetur adipisicing elit<br>
+                       Magni, molestiae</p>
+                </section>
+                <section>
+                    <span><h2>User Friendly</h2></span>
+                    <span><span><i class="fa fa-2x fa-heartbeat"></i></span></span>
+                    <p style="margin-right:7%;">Lorem, ipsum dolor sit amet<br>
+                       consectetur adipisicing elit<br>
+                       Magni, molestiae</p>
+                </section>
+            </div>
+            <div class="col-md-4 col-12 wow animated bounceInDown">
+                <img src="./image/h1.png" alt="" class="img-fluid" style="height:500px; width: 70%;">
+            </div>
+            <div class="col-md-4 col-12 text-md-left text-center wow animated bounceInRight">
+                <section>
+                    <span><i class="fa fa-2x fa-eye"></i></span>
+                    <span><h2>Retina Ready</h2></span>
+                    <p style="margin-left:7%;">Lorem, ipsum dolor sit amet<br>
+                       consectetur adipisicing elit<br>
+                       Magni, molestiae</p>
+                </section>
+                <section>
+                    <span><i class="fa fa-2x fa-code"></i></span>
+                    <span><h2>Well Documented</h2></span>
+                    <p style="margin-left:7%;">Lorem, ipsum dolor sit amet<br>
+                       consectetur adipisicing elit<br>
+                       Magni, molestiae</p>
+                </section>
+                <section>
+                    <span><i class="fa fa-2x fa-superpowers"></i></span>
+                    <span><h2>Super Powerful</h2></span>
+                    <p style="margin-left:7%;">Lorem, ipsum dolor sit amet<br>
+                       consectetur adipisicing elit<br>
+                       Magni, molestiae</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <div class="four container text-center">
+        <h1>SHOWCASE</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis <br>
+            veritatis ex possimus suscipit earum sapiente iste libero ea <br>
+            aperiam, tempore corrupti aliquid nihil in tenetur, maxime sed.</p>
+        <div class="row text-left">
+            <div class="col-md-6 col-12 p-5 p-md-0 wow animated bounceInLeft">
+                <h2>Eye catching details</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis <br>
+                    veritatis ex possimus suscipit earum sapiente iste libero ea <br>
+                    aperiam, tempore corrupti aliquid nihil in tenetur, maxime.</p>
+                <span><i class="fa fa-2x fa-rocket"></i></span>
+                <span><h3>Super Fast</h3> </span>
+                <p style="margin-left:7%;">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Veritatis, ipsa.</p>
+                <span><i class="fa fa-2x fa-lightbulb-o"></i></span>
+                <span><h3>Unlimited Features</h3></span>
+                <p style="margin-left:7%;">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Veritatis, ipsa.</p>
+            </div>
+            <div class="col-md-6 col-12 wow animated bounceInRight">
+                <img src="./image/four2.png" alt="" style="width:100%; position: relative; top:10%; height:480px;">
+                <img src="./image/four1.png" alt="" style="width:90%; position: absolute; top:0; z-index:-1; height:480px;">
+            </div>
+            <div class="col-md-6 col-12 wow animated bounceInLeft">
+                <img src="./image/four4.png" alt="" style="width:100%; position: relative; top:10%; right:10%;height:500px;">
+                <img src="./image/four3.png" alt="" style="width:90%; position: absolute; top:0; z-index:-1; height:500px;">
+            </div>
+            <div class="col-md-6 col-12 p-5 p-md-0 pt-md-5 wow animated bounceInRight">
+                <h2>Unique Custom Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis<br>
+                    veritatis ex possimus suscipit earum sapiente iste libero ea<br>
+                    aperiam, tempore corrupti aliquid nihil in tenetur, maxime.</p>
+                <span><i class="fa fa-2x fa-cogs"></i></span>
+                <span> <h3>Well Documented</h3></span>
+                <p style="margin-left:7%;">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Veritatis, ipsa.</p>
+                <span><i class="fa fa-2x fa-comments"></i></span>
+                <span><h3>Full Chat</h3></span>
+                <p style="margin-left:7%;">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Veritatis, ipsa.</p>
+            </div>
+            <div class="col-md-6 col-12 p-5 p-md-0 pt-md-5 wow animated bounceInLeft">
+                <h2>Awesome built-in features</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis<br>
+                    veritatis ex possimus suscipit earum sapiente iste libero ea<br>
+                    aperiam, tempore corrupti aliquid nihil in tenetur, maxime.</p>
+                <span><i class="fa fa-2x fa-eye"></i></span>
+                <span><h3>Retina Ready</h3></span>
+                <p style="margin-left:7%;">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Veritatis, ipsa.</p>
+                <span><i class="fa fa-2x fa-heartbeat"></i></span>
+                <span><h3>User Friendly</h3></span>
+                <p style="margin-left:7%;">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Veritatis, ipsa.</p>
+            </div>
+            <div class="col-md-6 col-12 wow animated bounceInRight">
+                <img src="./image/four1.png" alt="" style="width:100%; position: relative; top:10%; height:500px;">
+                <img src="./image/four2.png" alt="" style="width:90%; position: absolute; top:0; z-index:-1; height:500px;">
+            </div>
+        </div>
+    </div>
+
+    <div class="five container-fluid text-center">
+        <div class="container row">
+            <div class="col-md-4 col-12">
+                <h1>SUBSCRIBE</h1>
+            </div>
+            <div class="col-md-8 col-12">
+                <input type="text" placeholder="Email" class="w-md-100 w-50">
+                <button class="w-md-100 w-25"><i class="fa fa-2x fa-paper-plane"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <div class="six container text-center" id="screen">
+        <h1>SCREENSHOTS</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis<br>
+            veritatis ex possimus suscipit earum sapiente iste libero ea<br>
+            aperiam, tempore corrupti aliquid nihil in tenetur, maxime sed.</p> <br><br><br>
+        <div class="carousel slide w-md-75 w-100 mx-auto" id="mycarousel" data-ride="carousel" data-interval="2000" data-pause="hover">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./image/h3.png" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="./image/h2.png" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="./image/h1.png" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="./image/six1.png" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="./image/h1.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="seven container-fluid text-center">
+        <h1>TESTIMONIALS</h1> 
+        <div class="carousel slide w-75 mx-auto" id="mycarousel" data-ride="carousel" data-interval="2000" data-pause="hover">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./image/seven1.jpg" alt="" style="border-radius:50%; border:5px solid white;">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis iure <br>
+                        veritatis ex possimus suscipit earum sapiente iste libero ea repellendus <br>
+                        aperiam, tempore corrupti aliquid nihil in tenetur, maxime sed.</p>
+                    <h3>Jhon Doe</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <div class="carousel-item">
+                    <img src="./image/seven2.jpg" alt="" style="border-radius:50%; border:5px solid white;">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis iure <br>
+                        veritatis ex possimus suscipit earum sapiente iste libero ea repellendus <br>
+                        aperiam, tempore corrupti aliquid nihil in tenetur, maxime sed.</p>
+                    <h3>Jhon Doe</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <div class="carousel-item">
+                    <img src="./image/seven3.jpg" alt="" style="border-radius:50%; border:5px solid white;">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis iure <br>
+                        veritatis ex possimus suscipit earum sapiente iste libero ea repellendus <br>
+                        aperiam, tempore corrupti aliquid nihil in tenetur, maxime sed.</p>
+                    <h3>Jhon Doe</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+            </div>
+            <ul class="carousel-indicators">
+                <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#mycarousel" data-slide-to="1"></li>
+                <li data-target="#mycarousel" data-slide-to="2"></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="eight container text-center">
+        <h1>BEHIND THE STORY</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis<br>
+            veritatis ex possimus suscipit earum sapiente iste libero ea<br>
+            aperiam, tempore corrupti aliquid nihil in tenetur, maxime sed.</p> 
+        <div class="div carousel slide mx-auto" id="mycarousel" data-ride="carousel" data-interval="2000" data-pause="hover">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="eight1 card shadow float-left" >
+                        <img src="./image/eight1.jpg" alt="">
+                        <h3>Sandra More</h3>
+                        <p>Web Developer</p>
+                    </div>
+                    <div class="eight1 card shadow float-left" >
+                        <img src="./image/eight2.jpg" alt="">
+                        <h3>Jhon Snow</h3>
+                        <p>Creation Studio</p>
+                    </div>
+                    <div class="eight1 card shadow float-left d-none d-md-inline-block" >
+                        <img src="./image/eight3.jpg" alt="">
+                        <h3>David Bobby</h3>
+                        <p>UI/UX Designer</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="eight1 card shadow float-left">
+                        <img src="./image/eight4.jpeg" alt="">
+                        <h3>Aria Stark</h3>
+                        <p>Office Manager</p>
+                    </div>
+                </div>
+            </div>
+            <ul class="carousel-indicators">
+                <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#mycarousel" data-slide-to="1"></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="nine container-fluid">
+        <h1 class="text-center">GET IT NOW</h1> <br><br><br>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing. <br>
+           Voluptatum eveniet consequatur necessitatibus ipsam<br>
+           deleniti debitis ratione, adipisci libero.</p> <br>
+        <button>
+            <span><i class="fa fa-2x fa-apple"></i></span>
+            <span>available on <br> <b>Apple Store</b></span>
+        </button>
+        <button>
+            <span><i class="fa fa-2x fa-android"></i></span>
+            <span>available on <br> <b>Google Store</b></span>
+        </button>
+        <button>
+            <span><i class="fa fa-2x fa-windows"></i></span>
+            <span>available on <br> <b>Windows Store</b></span>
+        </button> <br><br>
+        <button style="background:transparent;">SCAN QR CODE</button>
+        <img class="d-none d-md-inline-block wow animated bounceInRight" src="./image/four3.png" alt="" style="position:absolute; overflow:hidden; top:20%; left:60%; height:450px;">
+    </div>
+    <div class="ten container" id="news">
+        <h1 class="text-center">LATEST NEWS</h1>
+        <p class="text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br>
+           Voluptatum eveniet consequatur necessitatibus ipsam quaerat <br>
+           deleniti debitis ratione, adipisci libero.</p> <br>
+        <div class="carousel slide w-100 mx-auto" id="mycarousel" data-ride="carousel" data-interval="2000" data-pause="hover">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="card float-left" >
+                        <img src="./image/ten1.jpg" alt="">
+                        <p>
+                            <i class="fa fa-user"></i> John Doe
+                            <i class="fa fa-calendar"></i> 24 Oct. 1988
+                        </p>
+                        <h3>Lorem ipsum dolor sit</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur <br>
+                           adipisicing elit. Perspiciatis ducimus <br>
+                           exercitationem dignissimos explicabo...</p>
+                        <button>Read more</button>
+                    </div>
+                    <div class="card float-left" >
+                        <img src="./image/ten2.jpg" alt="">
+                        <p>
+                            <i class="fa fa-user"></i> John Doe
+                            <i class="fa fa-calendar"></i> 24 Oct. 1988
+                        </p>
+                        <h3>Lorem ipsum dolor sit</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur <br>
+                           adipisicing elit. Perspiciatis ducimus <br>
+                           exercitationem dignissimos explicabo...</p>
+                        <button>Read more</button>
+                    </div>
+                    <div class="card float-left d-none d-md-inline-block" >
+                        <img src="./image/ten3.jpg" alt="">
+                        <p>
+                            <i class="fa fa-user"></i> John Doe
+                            <i class="fa fa-calendar"></i> 24 Oct. 1988
+                        </p>
+                        <h3>Lorem ipsum dolor sit</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur <br>
+                           adipisicing elit. Perspiciatis ducimus <br>
+                           exercitationem dignissimos explicabo...</p>
+                        <button>Read more</button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card float-left" >
+                        <img src="./image/ten1.jpg" alt="">
+                        <p>
+                            <i class="fa fa-user"></i> John Doe
+                            <i class="fa fa-calendar"></i> 24 Oct. 1988
+                        </p>
+                        <h3>Lorem ipsum dolor sit</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur <br>
+                           adipisicing elit. Perspiciatis ducimus <br>
+                           exercitationem dignissimos explicabo...</p>
+                        <button>Read more</button>
+                    </div>
+                    <div class="card float-left" >
+                        <img src="./image/ten2.jpg" alt="">
+                        <p>
+                            <i class="fa fa-user"></i> John Doe
+                            <i class="fa fa-calendar"></i> 24 Oct. 1988
+                        </p>
+                        <h3>Lorem ipsum dolor sit</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur <br>
+                           adipisicing elit. Perspiciatis ducimus <br>
+                           exercitationem dignissimos explicabo...</p>
+                        <button>Read more</button>
+                    </div>
+                    <div class="card float-left d-none d-md-inline-block" >
+                        <img src="./image/ten4.jpg" alt="">
+                        <p>
+                            <i class="fa fa-user"></i> John Doe
+                            <i class="fa fa-calendar"></i> 24 Oct. 1988
+                        </p>
+                        <h3>Lorem ipsum dolor sit</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur <br>
+                           adipisicing elit. Perspiciatis ducimus <br>
+                           exercitationem dignissimos explicabo...</p>
+                        <button>Read more</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="one1 conatiner-fluid text-center">
+        <h1>WATCH VIDEO</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam rerum <br>
+           ab adipisci accusamus pariatur fugiat.</p>
+        <a href="#"><i class="fa fa-4x fa-play-circle"></i></a>
+    </div>
+
+    <div class="one2 container text-center" id="pricing">
+        <h1>PRICES</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam rerum <br>
+           ab adipisci accusamus pariatur fugiat.</p> <br><br>
+        <div class="card float-left wow animated shake" >
+            <h3>Freelancer</h3>
+            <hr style="border:1px solid gray; width:100%;">
+            <h1>$ 10.99 <small>/month</small></h1>
+            <hr style="border:1px solid gray; width:100%;">
+            <p>
+                Support Forum <br>
+                Free Hosting <br>
+                50GB of Free Storage <br>
+                Admin Area <br><br><br><br><br>
+            </p>
+            <button>Buy Now</button>
+        </div>
+        <div class="card float-left wow animated shake" >
+            <h3>One Project</h3>
+            <hr style="border:1px solid gray; width:100%;">
+            <h1>$ 20.99 <small>/month</small></h1>
+            <hr style="border:1px solid gray; width:100%;">
+            <p>
+                Support Forum <br>
+                Free Hosting <br>
+                100GB of Free Storage <br>
+                Admin Area <br>
+                Unlimited Hosting <br><br><br><br>
+            </p>
+            <button>Buy Now</button>
+        </div>
+        <div class="card float-left wow animated shake">
+            <h3>Multiple Projects</h3>
+            <hr style="border:1px solid gray; width:100%;">
+            <h1>$ 33.99 <small>/month</small></h1>
+            <hr style="border:1px solid gray; width:100%;">
+            <p>
+                Support Forum <br>
+                Free Hosting <br>
+                50GB of Free Storage <br>
+                Admin Area <br>
+                Unlimited Hosting <br>
+                24X7 hr Support <br><br><br>
+            </p>
+            <button>Buy Now</button>
+        </div>
+    </div>
+
+
+    <div class="one3 container-fluid text-center">
+        <h1>STATISTICS</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br>
+           Voluptatum eveniet consequatur necessitatibus ipsam<br>
+           deleniti debitis ratione, adipisci libero.</p>
+        <div class="row">
+            <div class="col-md-3 col-6">
+                <i class="fa fa-3x fa-heart"></i>
+                <h3>Happy Clients</h3>
+                <p class="display-4">1232</p>
+            </div>
+            <div class="col-md-3 col-6">
+                <i class="fa fa-3x fa-cloud-download"></i>
+                <h3>App Downloads</h3>
+                <p class="display-4">64K</p>
+            </div>
+            <div class="col-md-3 col-6">
+                <i class="fa fa-3x fa-reddit-alien"></i>
+                <h3>Active Users</h3>
+                <p class="display-4">1811</p>
+            </div>
+            <div class="col-md-3 col-6">
+                <i class="fa fa-3x fa-star"></i>
+                <h3>Total Rates</h3>
+                <p class="display-4">232</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="one4 container" id="faq">
+        <h1 class="text-center">FAQs</h1>
+        <p class="text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br>
+           Voluptatum eveniet consequatur necessitatibus ipsam quaerat <br>
+           deleniti debitis ratione, adipisci libero.</p>
+        <div class="float-md-left float-none wow animated bounceInLeft" style="position:relative;">
+            <img src="./image/h2.png" alt="" style="height:600px;">
+            <img src="./image/six1.png" alt="" style="position:absolute; height:550px; top:4%; left:25%; z-index:-1;">
+        </div>
+        <div class="float-md-right float-none wow animated bounceInRight">
+            <div class="card">
+                <div class="card-header">
+                    <i class="fa fa-lg fa-comment"></i>
+                   <span style="margin-left:10px;">Why this app is so awesome?</span>
+                   <i class="fa fa-minus float-right"></i>
+                </div>
+                <p style="padding:20px;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis voluptates earum <br>
+                   qui nemo officia labore debitis ipsum ipsam error molestiae.</p>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <i class="fa fa-lg fa-comment"></i>
+                    <span style="margin-left:10px;">Can I get a discount by inviting friends?</span> 
+                    <i class="fa fa-plus float-right"></i>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <i class="fa fa-lg fa-comment"></i>
+                    <span style="margin-left:10px;">Lorem ipsum dolor sit amet.adipiscing</span> 
+                    <i class="fa fa-plus float-right"></i>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <i class="fa fa-lg fa-comment"></i>
+                    <span style="margin-left:10px;">Lorem ipsum dolor sit amet.adipiscing</span>
+                    <i class="fa fa-plus float-right"></i>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <i class="fa fa-lg fa-comment"></i>
+                    <span style="margin-left:10px;">Lorem ipsum dolor sit amet.adipiscing</span>
+                    <i class="fa fa-plus float-right"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="one5 container-fluid text-center" id="contact">
+        <div class="one51 wow animated rotateIn">
+            <h1>GET IN TOUCH</h1> <br><br>
+            <div class="float-left" style="width: 70%;">
+                <form class="form-inline">
+                    <span class="col-2"><i class="fa fa-2x fa-user"></i></span>
+                    <span class="col-10"><input type="text" placeholder="Name*"></span> <br> 
+                    <span class="col-2"><i class="fa fa-2x fa-paper-plane"></i></span>
+                    <span class="col-10"><input type="text" placeholder="Email*"></span> 
+                    <span class="col-2"><i class="fa fa-2x fa-envelope"></i></span>
+                    <span class="col-10"><textarea cols="30" rows="3" placeholder="Message*"></textarea></span> <br>
+                    <button>Send Message</button>
+                </form>
+            </div>
+            <div class="float-left text-md-left text-center">
+                <span><i class="fa fa-2x fa-map-marker"></i></span>
+                <span>15th Bath Rd, Heathrow, <br>
+                      Longford, Hounslow TW6 <br>
+                      2AB, UK</span> <br><br>
+                <span><i class="fa fa-2x fa-phone"></i></span>
+                <span>+44 171 127 8528</span> <br><br>
+                <span><i class="fa fa-2x fa-paper-plane"></i></span>
+                <span>perla.app@example.com</span> <br><br>
+                <span>
+                    <i class="fa fa-2x fa-facebook-f"></i>
+                    <i class="fa fa-2x fa-twitter"></i>
+                    <i class="fa fa-2x fa-instagram"></i>
+                    <i class="fa fa-2x fa-youtube"></i>
+                </span>
+            </div>
+        </div>
+        <div class="container one52 text-left wow animated wobble" style="position:absolute; bottom:0; left: 8%; color: white;">
+            <div>
+                <h2>About Us</h2> <br>
+                <img src="./image/logo.jpg" alt="" style="width:50px;"> <br> <br>
+                <img src="./image/title.png" alt="" style="width:200px;"> <br><br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi nihil hic velit, voluptatum magnam.</p>
+            </div>
+            <div>
+                <h2>News</h2> <br>
+                <img src="./image/ten1.jpg" alt="" style="height:80px; width:140px; float:left;"> 
+                <section class="float-left pl-2">Lorem ipsum <br> dolor sit</section> <br><br><br><br><br>
+                <img src="./image/ten2.jpg" alt="" style="height:80px; width:140px; float: left;">
+                <section class="float-left pl-2">Lorem ipsum <br> dolor sit</section>
+            </div>
+            <div class="tag">
+                <h2>Tags</h2> <br>
+                <button>App</button>
+                <button>Apperle</button>
+                <button>Google</button>
+                <button>Android</button>
+                <button>Apple</button>
+                <button>Watch</button>
+                <button>Download</button>
+                <button>News</button>
+                <button>Articles</button>
+                <button>Google</button>
+                <button>Android</button>
+                <button>Apple</button>
+                <button>Articles</button>
+                <button>Android</button>
+                <button>Watch</button>
+            </div>
+            <div>
+                <h2>Instagram Feed</h2> <br>
+                <img src="./image/Capture.PNG" alt="" class="one5img">
+            </div>
+            <span class="text-center w-50 pt-5">Copyright &copy; 2017 Apperle HTML template by Perle</span>
+            <span class="text-center w-50 pt-5">
+                <i class="fa fa-2x fa-facebook-f"></i>
+                <i class="fa fa-2x fa-twitter"></i>
+                <i class="fa fa-2x fa-instagram"></i>
+                <i class="fa fa-2x fa-youtube"></i>
+            </span>
+        </div>
+    </div>
+    <script src="../../WOW-master/dist/wow.min.js"></script>
+    <script>new WOW().init();</script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
